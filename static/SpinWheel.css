@@ -1,0 +1,51 @@
+/* CSS HEX */
+
+body {
+
+    background-color: #6cd4ffff;
+    --baby-blue: #6cd4ffff;
+    --medium-purple: #8b80f9ff;
+    --lavender-blue: #cfbff7ff;
+    --silver-pink: #cfb1b7ff;
+    --roman-silver: #83858cff;
+
+}
+
+.header {
+    background-color: #cfb1b7ff;
+}
+
+text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    pointer-events: none;
+}
+
+#chart {
+    position: fixed;
+    width: 15000px;
+    height: 1500px;
+    top: 0;
+    left: 50px;
+}
+
+#question {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 0;
+    left: 1000px;
+}
+
+#question h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #83858cff;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
